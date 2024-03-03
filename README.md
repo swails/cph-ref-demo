@@ -5,7 +5,7 @@
 The key formula here is the following:
 
 $$
-\Delta G_{ref} = \Delta G_{TI} - R T \ln 10 pKa_{ref}
+\Delta G_{ref} = \Delta G_{TI} - R T \ln 10 \cdot \Delta N \cdot pKa_{ref}
 $$
 
 The first thing we do is plug in a "dumb" energy guess, titrate with CpHREMD and
