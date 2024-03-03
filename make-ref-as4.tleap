@@ -1,0 +1,7 @@
+source leaprc.constph
+
+as4_ref = sequence {ACE AS4 NME}
+
+saveAmberParm as4_ref as4_ref.parm7 as4_ref.rst7
+
+quit

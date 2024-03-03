@@ -1,0 +1,8 @@
+# pH 3
+-O -i mdin.3 -p as4_ref.parm7 -c as4_ref.min.rst7 -x ph3.nc -o mdout.3 -cpin as4_ref.cpin -cpout cpout.3 -rem 4 -remlog rem.log
+# pH 1
+-O -i mdin.1 -p as4_ref.parm7 -c as4_ref.min.rst7 -x ph1.nc -o mdout.1 -cpin as4_ref.cpin -cpout cpout.1 -rem 4 -remlog rem.log
+# pH -1
+-O -i mdin.-1 -p as4_ref.parm7 -c as4_ref.min.rst7 -x ph-1.nc -o mdout.-1 -cpin as4_ref.cpin -cpout cpout.-1 -rem 4 -remlog rem.log
+# pH -3
+-O -i mdin.-3 -p as4_ref.parm7 -c as4_ref.min.rst7 -x ph-3.nc -o mdout.-3 -cpin as4_ref.cpin -cpout cpout.-3 -rem 4 -remlog rem.log

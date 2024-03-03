@@ -1,0 +1,16 @@
+parm as4_ref.parm7
+loadRestrt as4_ref.rst7
+
+# Minimize the structure
+minimize igb 2 saltcon 0.1 maxcyc 1000
+
+# Set to deprotonated and calculate the energy
+changeProtState :AS4 0
+energy igb 2 saltcon 0.1
+
+# Set to protonated and calculate the energy
+changeProtState :AS4 1
+energy igb 2 saltcon 0.1
+
+# Output the minimized structure as a restart file
+writeCoordinates as4_ref.min.rst7 restart
