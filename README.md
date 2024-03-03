@@ -4,9 +4,9 @@
 
 The key formula here is the following:
 
-$$$
+$$
 \Delta G_{ref} = \Delta G_{TI} - R T \ln 10 pKa_{ref}
-$$$
+$$
 
 The first thing we do is plug in a "dumb" energy guess, titrate with CpHREMD and
 compute the "dumb" pKa, and compute $\Delta G_{TI}$ using the formula above.
